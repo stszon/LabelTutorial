@@ -4,6 +4,10 @@
              x:Class="LabelTutorial.MainPage">
     <StackLayout Margin="20,35,20,20">
         <Label Text="Welcome to Xamarin.Forms!"
-               HorizontalOptions="Center" />
+       TextColor="Blue"
+       FontAttributes="Italic"
+       FontSize="22"
+       TextDecorations="Underline"
+       HorizontalOptions="Center" />
     </StackLayout>
 </ContentPage>
